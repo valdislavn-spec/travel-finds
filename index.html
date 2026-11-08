@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flight &amp; Hotel Finds — Search Every Date | Travel Finds</title>
+  <meta name="description" content="Flight, eSIM and transfer finds for international travel: compare fares and travel essentials across dates. Affiliate links — you pay the same, we may earn a commission.">
+  <meta name="keywords" content="cheap flights, hotel deals, low fare calendar, travel deals, flight search">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://valdislavn-spec.github.io/travel-finds/en.html">
+  <link rel="alternate" hreflang="en" href="https://valdislavn-spec.github.io/travel-finds/en.html">
+  <link rel="alternate" hreflang="es" href="https://valdislavn-spec.github.io/travel-finds/es.html">
+  <link rel="alternate" hreflang="x-default" href="https://valdislavn-spec.github.io/travel-finds/en.html">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%88%3C/text%3E%3C/svg%3E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Travel Finds">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:title" content="Flight &amp; Hotel Finds — Search Every Date">
+  <meta property="og:description" content="Compare flight and hotel prices across dates and find deals. Affiliate links: the price stays the same for you.">
+  <meta property="og:url" content="https://valdislavn-spec.github.io/travel-finds/en.html">
+  <meta property="og:image" content="https://valdislavn-spec.github.io/travel-finds/assets/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Flight &amp; Hotel Finds — Search Every Date">
+  <meta name="twitter:description" content="Low-fare calendar, nearby dates, alternative airports. Affiliate links, same price for you.">
+  <meta name="twitter:image" content="https://valdislavn-spec.github.io/travel-finds/assets/og-cover.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://valdislavn-spec.github.io/travel-finds/#org",
+        "name": "Travel Finds",
+        "url": "https://valdislavn-spec.github.io/travel-finds/",
+        "description": "Travel media: flight and hotel finds, destination guides."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://valdislavn-spec.github.io/travel-finds/#site",
+        "url": "https://valdislavn-spec.github.io/travel-finds/en.html",
+        "name": "Travel Finds",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://valdislavn-spec.github.io/travel-finds/#org" }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link visually-hidden" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="wrap header__row">
+      <a class="logo" href="index.html" aria-label="Travel Finds — home">
+        <span class="logo__mark" aria-hidden="true">✈</span>
+        Travel Finds
+      </a>
+      <nav class="header__nav" aria-label="Navigation">
+        <a href="#deals">Deals</a>
+        <a href="#how">How it works</a><a href="blog/">Guides</a>
+        <a class="lang-switch" href="es.html" hreflang="es" lang="es">ES</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <section class="hero">
+        <h1>Flight and hotel finds — search across every date</h1>
+        <p>
+          We compare flight and hotel prices and surface the finds: a low-fare
+          calendar, nearby dates, alternative airports. No fake countdowns and
+          no pushy calls.
+        </p>
+        <p class="hero__note">
+          The price in search results is not final: baggage, seat selection and
+          airport transfers are extra. Always check the total for your travel
+          dates — fares depend on dates and availability.
+        </p>
+        <ul class="hero__badges">
+          <li>Search every date</li>
+          <li>Alternative airports</li>
+          <li>Hotels and apartments</li>
+          <li>No hidden fees from this site</li>
+        </ul>
+      </section>
+
+      <!--
+        TravelPayouts White Label widget.
+        Fill site/assets/site-config.js (marker, widget.promoId, widget.campaignId)
+        to enable it. While values start with YOUR_ the widget is replaced with
+        fallback buttons. Official TravelPayouts embed:
+        <script charset="utf-8" src="https://tp.media/content?promo_id=...&shmarker=...&campaign_id=...&locale=en&powered_by=true"></script>
+      -->
+      <section class="search" aria-labelledby="search-title">
+        <h2 id="search-title">Find a flight or a hotel</h2>
+        <p>The widget pre-fills your city, dates and guests. It is an affiliate search — the price you see is the same.</p>
+        <div id="tp-widget" data-locale="en" aria-live="polite"></div>
+        <div id="widget-fallback" class="widget-fallback">
+          <span>The widget is not configured yet (placeholder in <code>site/assets/site-config.js</code>).</span>
+          <a href="https://www.kiwi.com/" data-affiliate-program="kiwi" data-affiliate-target="https://www.kiwi.com/" rel="sponsored nofollow noopener">Search flights</a>
+          <a href="https://www.trip.com/hotels/" data-affiliate-program="tripcom" data-affiliate-target="https://www.trip.com/hotels/" rel="sponsored nofollow noopener">Search hotels on Trip.com</a>
+        </div>
+        <p class="muted" style="font-size:12px;margin:12px 0 0">Ad · affiliate link. See the affiliate disclosure below.</p>
+      </section>
+
+      <section class="section" id="deals" aria-labelledby="deals-title">
+        <h2 id="deals-title">Latest finds</h2>
+        <p class="section__lead">
+          Three sample cards (sample data, not real fares). The generator
+          <code>tools/gen_deals.py</code> fills such cards from the TravelPayouts
+          Data API; always verify the price for your dates.
+        </p>
+        <div class="deals">
+          <!-- SAMPLE DEAL: layout example, price is made up -->
+          <article class="deal">
+            <span class="sample-tag">sample</span>
+            <div class="deal__route">Flights: your city → Bangkok</div>
+            <div class="deal__meta">depart 18 Dec 2026 · return 28 Dec 2026 · sample route</div>
+            <div class="deal__price">from $249 <small>found 08 Nov 2026</small></div>
+            <a class="deal__cta" href="#" data-affiliate-program="kiwi"
+               data-affiliate-target="https://www.kiwi.com/">Compare fares on Kiwi.com</a>
+          </article>
+          <!-- SAMPLE DEAL: layout example, price is made up -->
+          <article class="deal">
+            <span class="sample-tag">sample</span>
+            <div class="deal__route">eSIM: 5 GB for a week abroad</div>
+            <div class="deal__meta">instant activation · keep your number · sample plan</div>
+            <div class="deal__price">from $9.90 <small>checked 08 Nov 2026</small></div>
+            <a class="deal__cta" href="#" data-affiliate-program="yesim"
+               data-affiliate-target="https://yesim.app/">Compare eSIM plans on Yesim</a>
+          </article>
+          <!-- SAMPLE DEAL: layout example, price is made up -->
+          <article class="deal">
+            <span class="sample-tag">sample</span>
+            <div class="deal__route">Airport transfer: arrivals hall → hotel</div>
+            <div class="deal__meta">fixed price · driver meets you · sample route</div>
+            <div class="deal__price">from $24 <small>checked 08 Nov 2026</small></div>
+            <a class="deal__cta" href="#" data-affiliate-program="kiwitaxi"
+               data-affiliate-target="https://kiwitaxi.com/">Book a transfer on Kiwitaxi</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="how" aria-labelledby="how-title">
+        <h2 id="how-title">How it works</h2>
+        <p class="section__lead">Three steps to see the options usually hidden behind tabs.</p>
+        <div class="steps">
+          <article class="step">
+            <div class="step__num" aria-hidden="true">1</div>
+            <h3>Pick a destination</h3>
+            <p>Or open the low-fare calendar to spot the cheaper travel windows.</p>
+          </article>
+          <article class="step">
+            <div class="step__num" aria-hidden="true">2</div>
+            <h3>Compare and verify</h3>
+            <p>Cached fares change. Open the results for your dates and check the total with baggage.</p>
+          </article>
+          <article class="step">
+            <div class="step__num" aria-hidden="true">3</div>
+            <h3>Book with the provider</h3>
+            <p>Checkout and payment happen on the partner's site. We may earn a commission; your price stays the same.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="who-title">
+        <h2 id="who-title">Who it is for</h2>
+        <div class="steps">
+          <article class="step">
+            <h3>Flexible travellers</h3>
+            <p>If your dates can shift, the calendar shows cheaper windows without paying extra for convenience.</p>
+          </article>
+          <article class="step">
+            <h3>Regional departures</h3>
+            <p>We check nearby airports and connections: sometimes a one-stop fare beats a direct flight.</p>
+          </article>
+          <article class="step">
+            <h3>Hotel bookers</h3>
+            <p>Hotels and apartments are compared by total stay price, not just the nightly rate.</p>
+          </article>
+        </div>
+      </section>
+
+      <aside class="disclosure" id="disclosure" aria-labelledby="disclosure-title">
+        <strong id="disclosure-title">Affiliate disclosure</strong>
+        <p style="margin:8px 0 0">
+          This site contains affiliate links: if you buy a ticket or book a hotel
+          through them, we may earn a commission at no extra cost to you. Price
+          data is informational and can change — always confirm the final total
+          on the provider's site before paying.
+        </p>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__row">
+        <span>© <span id="year">2026</span> Travel Finds</span>
+        <span>
+          <a href="index.html" hreflang="en" lang="en">English</a> ·
+          <a href="es.html" hreflang="es" lang="es">Español</a> ·
+          <a href="#disclosure">Affiliate disclosure</a>
+        </span>
+      </div>
+      <p class="footer__legal">
+        Travel Finds is an independent media project. It is not an airline, hotel
+        or travel agency; booking and payment happen on the provider's side.
+        "Ad · affiliate link." is used for content that contains affiliate links.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/site-config.js"></script>
+  <script src="assets/main.js"></script>
+</body>
+</html>
