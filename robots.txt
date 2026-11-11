@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://valdislavn-spec.github.io/travel-finds/sitemap.xml
+Sitemap: https://travel-finds-usa.pages.dev/travel-finds/sitemap.xml

@@ -3,7 +3,7 @@
 Статический сайт с подборками дешёвых перелётов, отелей и city-break'ов.
 Партнёрские ссылки TravelPayouts, без цен и наличия в реальном времени.
 
-- Live: https://valdislavn-spec.github.io/travel-finds/
+- Live: https://travel-finds-usa.pages.dev/travel-finds/
 - EN: `index.html`, ES: `es.html`
 - Гайды: `blog/*.html`
 - Стили/скрипты: `assets/`

@@ -64,7 +64,7 @@ window.TRAVEL_CONFIG = {
       label: "Trip.com",
     },
   },
-  siteUrl: "https://valdislavn-spec.github.io/travel-finds",
+  siteUrl: "https://travel-finds-usa.pages.dev/travel-finds",
 };
 
 window.TRAVEL_PLACEHOLDER = !window.TRAVEL_CONFIG.programs.kiwi.urls.en;

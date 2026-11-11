@@ -11,6 +11,6 @@ Instagram/Facebook/TikTok APIs and by the Pinterest video CSV importer.
 
 - 1080×1920, H.264/AAC, 30 fps, 9:16.
 - Captions with affiliate disclosure: [`social-captions.json`](social-captions.json).
-- CTA: `https://valdislavn-spec.github.io/travel-finds/blog/...`.
+- CTA: `https://travel-finds-usa.pages.dev/travel-finds/blog/...`.
 - B-roll: Openverse CC0 photos (credits in each source `video.json`).
 - Generated with `travel-affiliate/tools/make_ugc_video.py` (FFmpeg + Kokoro).

@@ -1,7 +1,7 @@
 # Pinterest pins — US travel deals
 
 Images: `assets/pins/pin-01.png` … `pin-10.png` (1000×1500).
-Destination: `https://valdislavn-spec.github.io/travel-finds/us-deals.html`
+Destination: `https://travel-finds-usa.pages.dev/travel-finds/us-deals.html`
 
 | # | Title | Description | Hashtags |
 |---|---|---|---|
