@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Travel Finds//Booking Windows 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Travel Finds — booking windows 2026
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:travelfinds-booking-1@valdislavn-spec.github.io
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20260105
+DTEND;VALUE=DATE:20260215
+SUMMARY:Book spring Europe fares (NYC)
+DESCRIPTION:NYC → Lisbon / Dublin / Barcelona: best booking window. More: https://valdislavn-spec.github.io/travel-finds/us-deals.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:travelfinds-booking-2@valdislavn-spec.github.io
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20260110
+DTEND;VALUE=DATE:20260228
+SUMMARY:Book Japan fares (LAX/SFO/SEA)
+DESCRIPTION:LAX/SFO/SEA → Tokyo: book 2–4 months ahead. More: https://valdislavn-spec.github.io/travel-finds/us-deals.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:travelfinds-booking-3@valdislavn-spec.github.io
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20260115
+DTEND;VALUE=DATE:20260315
+SUMMARY:Book Mexico & Caribbean (MIA)
+DESCRIPTION:MIA → Cancún / San Juan / Mexico City: shoulder season. More: https://valdislavn-spec.github.io/travel-finds/us-deals.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:travelfinds-booking-4@valdislavn-spec.github.io
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260815
+SUMMARY:Book fall Iceland fares (NYC/ORD)
+DESCRIPTION:NYC/ORD → Reykjavík: September–October travel. More: https://valdislavn-spec.github.io/travel-finds/us-deals.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:travelfinds-booking-5@valdislavn-spec.github.io
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260930
+SUMMARY:Book winter Paris fares (SFO)
+DESCRIPTION:SFO → Paris: November–March travel. More: https://valdislavn-spec.github.io/travel-finds/us-deals.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:travelfinds-booking-6@valdislavn-spec.github.io
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20260120
+DTEND;VALUE=DATE:20260228
+SUMMARY:Book spring Dublin fares (BOS)
+DESCRIPTION:BOS → Dublin: April–June travel. More: https://valdislavn-spec.github.io/travel-finds/us-deals.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:travelfinds-booking-7@valdislavn-spec.github.io
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20260201
+DTEND;VALUE=DATE:20260331
+SUMMARY:Book summer Bangkok fares (LAX/SFO)
+DESCRIPTION:LAX/SFO → Bangkok: May–September travel. More: https://valdislavn-spec.github.io/travel-finds/us-deals.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:travelfinds-booking-8@valdislavn-spec.github.io
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20260115
+DTEND;VALUE=DATE:20260301
+SUMMARY:Book Colombia & Peru (MIA)
+DESCRIPTION:MIA → Bogotá / Lima: February–April travel. More: https://valdislavn-spec.github.io/travel-finds/us-deals.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:travelfinds-booking-9@valdislavn-spec.github.io
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260215
+SUMMARY:Book Spain fares (MIA/DFW)
+DESCRIPTION:MIA/DFW → Madrid: October–March travel. More: https://valdislavn-spec.github.io/travel-finds/us-deals.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:travelfinds-booking-10@valdislavn-spec.github.io
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260831
+SUMMARY:Book fall London fares (ORD/SEA)
+DESCRIPTION:ORD/SEA → London: January–March travel. More: https://valdislavn-spec.github.io/travel-finds/us-deals.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
