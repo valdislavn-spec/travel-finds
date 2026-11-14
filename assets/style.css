@@ -110,24 +110,29 @@ a:hover { text-decoration: underline; }
 #tp-widget iframe { width: 100%; border: 0; }
 .widget-fallback {
   display: none;
-  gap: 10px;
+  gap: 12px;
   flex-wrap: wrap;
-  padding: 14px;
-  border: 1px dashed var(--line);
-  border-radius: 12px;
-  background: #fafcff;
-  font-size: 14px;
-  color: var(--muted);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font-size: 15px;
 }
 .widget-fallback.is-visible { display: flex; }
 .widget-fallback a {
-  display: inline-block;
-  padding: 8px 14px;
-  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border-radius: 12px;
   background: var(--brand);
   color: #fff;
   font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 6px 18px -10px rgba(0, 0, 0, .45);
+  transition: transform .12s ease, filter .12s ease;
 }
+.widget-fallback a:hover { filter: brightness(1.08); transform: translateY(-1px); }
+.widget-fallback a[aria-disabled="true"] { opacity: .5; pointer-events: none; }
 .widget-fallback a:hover { background: var(--brand-dark); text-decoration: none; }
 
 /* Sections ---------------------------------------------------------------- */
