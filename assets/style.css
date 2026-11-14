@@ -163,6 +163,34 @@ a:hover { text-decoration: underline; }
 .step h3 { margin: 0 0 6px; font-size: 16px; }
 .step p { margin: 0; color: var(--muted); font-size: 14px; }
 
+/* Telegram ------------------------------------------------------------------ */
+.telegram-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 14px;
+}
+.telegram-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 15px;
+}
+.telegram-link:hover {
+  background: var(--bg);
+  border-color: var(--brand);
+  text-decoration: none;
+}
+.telegram-link span {
+  font-size: 20px;
+}
+
 /* Deals ------------------------------------------------------------------- */
 .deals { display: grid; gap: 12px; grid-template-columns: 1fr; }
 @media (min-width: 720px) { .deals { grid-template-columns: repeat(3, 1fr); } }

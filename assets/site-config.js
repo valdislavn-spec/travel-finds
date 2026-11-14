@@ -1,21 +1,32 @@
 /* ==========================================================================
-   Партнёрские ID/ссылки для сайта (site/) — non-RU (EN/ES).
-   Основная страница: site/en.html (seo_en-ссылки), site/es.html (seo_es).
-   RU-страница site/index.html переведена в архив (noindex, не деплоится).
-   Ссылки взяты из config/links.generated.json (website project 597672,
+   Конфигурация сайта travel-finds (EN/ES).
+   Основная страница: index.html (en), es.html (es).
+   Партнёрские ссылки — из config/links.generated.json (website project 597672,
    seo_en / seo_es; могут отдавать 403 до заполнения формы ad law — тогда
-   пользователь откладывает партнёрские кнопки; замените urls на новые).
+   замените urls на новые).
    API-токен на сайте НЕ НУЖЕН и НЕ ДОЛЖЕН попадать в репозиторий.
    ========================================================================== */
 window.TRAVEL_CONFIG = {
   marker: "674170",
   market: "non_ru",
   widget: {
-    // White Label: Tools → Widgets/White Label → promo_id (получить позже;
-    // до этого показываем fallback-кнопки).
+    // TravelPayouts White Label: Tools → Widgets/White Label → promo_id.
+    // Получить в личном кабинете TravelPayouts и вставить сюда.
+    // Пока YOUR_WIDGET_PROMO_ID — показываются fallback-кнопки.
     promoId: "YOUR_WIDGET_PROMO_ID",
     campaignId: "",
     poweredBy: "true",
+  },
+  // Telegram-каналы проекта (публичные, без токена бота на frontend).
+  telegram: {
+    // Username канала без @, например: travelfinds_en
+    channelEn: "",
+    channelEs: "",
+    // Ссылка на канал (t.me/...)
+    urlEn: "https://t.me/travelfinds_en",
+    urlEs: "https://t.me/travelfinds_es",
+    // Показывать блок "Последние посты" на главной (заполняется вручную или через бота)
+    showRecentPosts: false,
   },
   // У каждой программы своя короткая ссылка на язык (sub_id seo_en/seo_es
   // зашит при создании). fallback — url для остальных случаев.
